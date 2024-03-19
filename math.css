@@ -1,0 +1,176 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem .5rem;
+}
+
+h1 {
+    color: black;
+    margin: .5rem;
+    padding: .5rem;
+    display: block;
+    position: relative;
+}
+
+body {
+    background-color: white;
+    margin: 2em auto;
+    padding: 2rem;
+}
+
+nav {
+    background: none;
+    margin: 0 -0.5rem;
+    padding: 0.5rem 0.5rem;
+    display: inline;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: right;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background: rgb(240, 240, 240)
+}
+
+nav a:active {
+    color: #cce;
+}
+
+li.contains ul {
+    display: none;
+}
+
+li.contains:hover ul{
+    background: white;
+    display: block;
+    position: absolute;
+}
+
+li.contains li {
+    float: none;
+    font-size: 0.9rem;
+}
+
+main {
+    padding: 2em;
+    margin: 2em;
+    text-align: center;
+}
+
+div.rules {
+    text-align: center;
+}
+
+.list {
+    text-align: center;
+    list-style-position: inside;
+    display: inline;
+}
+
+div#about h2 {
+    color: white;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+input {
+    width: 97%;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+textarea {
+    width: 97%;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+section#math-facts {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+section#numpad {
+    width: 100%;
+    display: none;
+    text-align: center;
+    position: relative;
+}
+
+button.btn {
+    padding: 20px;
+    margin: 2px;
+}
+
+input#field {
+    max-width: 180px;
+}
+
+button#resetbtn {
+    width: 114px;
+    height: 61px;
+}
+
+input#addfield {
+    max-width: 160px;
+}
+
+#terms input {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#terms label {
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+div#final-score {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 150px;
+}
+
+button#starting-page {
+    background-color: green;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+div#score {
+    width: 10px;
+    font-size: large;
+    font-weight: 800;
+}
+
+div#game-over-div {
+    display: none;
+    text-align: center;
+    margin: 1rem auto;
+    position: relative;
+}
